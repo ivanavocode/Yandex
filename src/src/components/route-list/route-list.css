@@ -1,0 +1,29 @@
+.RouteList {
+    width: 60%;
+    justify-self: end;
+}
+
+.RouteList ul {
+    text-align: right;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+
+.RouteList ul li {
+    width: 100%;
+    margin: 12px 0;
+    padding: 8px 0px;
+    justify-content:flex-start;
+    background-color: #FFBD88;
+    list-style-type: none;
+
+}
+.RouteList .click {
+cursor:pointer;
+background: none;
+border:none;
+color:red;
+font-size: 14px;
+padding:  0 10px;
+}

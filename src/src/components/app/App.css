@@ -1,0 +1,11 @@
+.YandexMap {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-items: center;
+    justify-content: center;
+    margin: 10vh auto;
+    grid-gap: 20px;
+}
+.Map {
+    justify-self: start;
+}
