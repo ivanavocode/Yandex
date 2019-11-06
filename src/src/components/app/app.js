@@ -64,21 +64,22 @@ Id = 2;
     onDragEnd = (id, e) => {
      const NewCoor = e.get('target').geometry.getCoordinates();
 
-     api.getName(NewCoor).then(body => {
-      let nameBody = body.name;
-      let descriptionBody = body.description;
-      const newData = [...this.state.coordinates];
-      // { coordinates } = this.state;
-      // const {id, letter, name, description, coor} = coordinates;
-    const  UpdItem = newData.find((coordinate) => coordinate.id === id );
-  
-    UpdItem.name = nameBody;
-    UpdItem.description = descriptionBody;
-    UpdItem.coor = NewCoor;
+      api.getName(NewCoor).then(body => {
+        let nameBody = body.name;
+        let descriptionBody = body.description;
+        const newData = [...this.state.coordinates];
+        // { coordinates } = this.state;
+        // const {id, letter, name, description, coor} = coordinates;
+      const  UpdItem = newData.find((coordinate) => coordinate.id === id );
     
-    this.setState({coordinates:UpdItem})
-    })
+      UpdItem.name = nameBody;
+      UpdItem.description = descriptionBody;
+      UpdItem.coor = NewCoor;
+      
+      this.setState({UpdItem})
+      })
     }
+
     onItemAdded = (e) => {
       let name = e;
       api.getGeoCode(e).then(body => {
