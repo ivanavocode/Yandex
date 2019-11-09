@@ -73,8 +73,10 @@ Link: https://ivanavocode.github.io/Yandex/
 плюсы и минусы?**
 
 Presentational Component – Компонент отображает данные(название говорит само за себя).
+
 Сontainer Сomponent - компонент, в котором принимают и работают с данными.
 Отделить логику.
+
 Переиспользование  Сontainer компонента с другими Presentational компонентами.
 
 **04**
