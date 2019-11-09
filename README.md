@@ -142,6 +142,14 @@ Animal – функция конструктор.  В константы Dog и 
 - http://www.wisdomweb.ru/
 - http://htmlbook.ru/
 
+- https://www.youtube.com/channel/UCe_TcJarfs-HKy3NySy8Kng/featured - Software Engineer - Soer
+
+- https://www.youtube.com/channel/UCeObZv89Stb2xLtjLJ0De3Q - АйТиБорода
+
+- https://www.youtube.com/channel/UCX3w3jB05SHLbGjZPR0PM6g - Senior Software Vlogger
+
+- https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw - Владилен Минин
+
 **09**
 
 **Расскажите нам немного о себе и предоставьте несколько ссылок на последние 
